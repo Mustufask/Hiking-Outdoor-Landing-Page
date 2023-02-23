@@ -1,0 +1,278 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* Global style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Default element styles */
+body {
+  font-family: poppins;
+  background-color: #fbfeff;
+  max-width: 1440px;
+  min-height: 6752px;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 92px;
+  letter-spacing: 0.01em;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  min-height: 58px;
+  width: 180px;
+}
+
+/* Local styles */
+.content-img {
+  max-width: 488px;
+  min-height: 622px;
+}
+
+/* HEADER */
+header {
+  max-width: 1140px;
+}
+
+nav {
+  max-width: 1140px;
+  min-height: 126px;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  padding: 8px 0px 0px 32px;
+}
+
+.details {
+  min-height: 688px;
+}
+
+.details h2 {
+  max-width: 640px;
+  min-height: 276px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 92px;
+  letter-spacing: 0.01em;
+}
+
+.details p {
+  max-width: 459px;
+  min-height: 66px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.header-div {
+  max-width: 1140px;
+  min-height: 382px;
+  background: #ffffff;
+  box-shadow: 0px 54px 104px rgba(0, 0, 0, 0.04);
+}
+
+/* MAIN */
+
+/* Middle Section-1 */
+.middle-section1 h2 {
+  max-width: 508px;
+  min-height: 234px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 78px;
+  letter-spacing: 0.01em;
+}
+
+.middle-section1 p {
+  max-width: 374px;
+  min-height: 160px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+/* Trust Section */
+.trust {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.trust-section {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Middle Section 3 */
+.section3 h2 {
+  max-width: 508px;
+  min-height: 156px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 78px;
+  letter-spacing: 0.01em;
+}
+
+.section3 p {
+  max-width: 374px;
+  min-height: 160px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+/* Middle Section 4 */
+.section4 h2 {
+  max-width: 508px;
+  min-height: 156px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 78px;
+  letter-spacing: 0.01em;
+}
+
+.section4 p {
+  max-width: 374px;
+  min-height: 160px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+/* Review Section */
+.review-section {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  max-width: 1140px;
+  min-height: 886px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.img-text h5 {
+  min-height: 26px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+.img-text p {
+  max-width: 612px;
+  min-height: 52px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #5d616f;
+}
+
+.img-area {
+  position: absolute;
+  max-width: 110px;
+  max-height: 86px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.single-box {
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  max-width: 726px;
+  min-height: 394px;
+  background: #ffffff;
+  box-shadow: 0px 54px 104px rgba(0, 0, 0, 0.04);
+  border-radius: 140px 0px;
+}
+
+/* FOOTER */
+footer {
+  height: 1138px;
+  background-color: #ecf3ff;
+  text-align: center;
+}
+
+/* Subscription form */
+.subscribe {
+  min-height: 118px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 59px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.subscribe-p {
+  min-height: 52px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+}
+
+.form-control {
+  border-color: rgb(0, 0, 255);
+  font-family: fontawesome;
+}
+
+.form-control::placeholder {
+  color: #3e82fc !important;
+}
+
+input[type="text"] {
+  padding: 16px 24px;
+  gap: 16px;
+  border: 1px solid #3e82fc;
+  border-radius: 50px;
+}
+
+input[type="text"]::placeholder {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.footer-bottom {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
